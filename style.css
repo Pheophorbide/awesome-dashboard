@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #3F51B5;
+    padding: 24px 27px;
+}
+
+header a {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.column {
+    width: 30%;
+    background: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.column:last-child {
+    width: 70%;
+    border-left: 1px solid gray;
+}
